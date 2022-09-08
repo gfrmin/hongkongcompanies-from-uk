@@ -37,4 +37,4 @@ jobs:
           downloaded_filename: hkcompaniesfromuk.json
           # A URL containing data to fetch.
           http_url: https://api.company-information.service.gov.uk/advanced-search/companies?company_type=registered-overseas-entity&location=hong%20kong
-          authorization: Bearer ${{secrets.APIAUTH}}
+          authorization: Basic ${{secrets.APIAUTH}}
