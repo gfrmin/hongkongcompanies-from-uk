@@ -36,5 +36,5 @@ jobs:
           # The filename to use for writing data.
           downloaded_filename: hkcompaniesfromuk.json
           # A URL containing data to fetch.
-          http_url: https://api.company-information.service.gov.uk/advanced-search/companies?company_type=registered-overseas-entity&location=hong%20kong
+          http_url: https://api.company-information.service.gov.uk/advanced-search/companies?company_type=registered-overseas-entity&location=hong%20kong&size=5000
           authorization: Basic ${{secrets.APIAUTH}}
